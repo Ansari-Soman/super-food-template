@@ -1,0 +1,69 @@
+/* Adds a smooth transition effect to dropdown list items */
+.dropdown li {
+  transition: all 0.3s ease;
+}
+
+/* Moves list item 10px to the right when hovered */
+.dropdown li:hover {
+  transform: translateX(10px);
+}
+
+/* Changes background color to white */
+.change-bg-white {
+  background-color: white;
+}
+
+/* Changes background color to aqua */
+.change-bg-aqua {
+  background-color: #50c5bc;
+}
+
+/* Sets the font to Sacramento (cursive style) */
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Sets the font to Open Sans */
+.open-sans {
+  font-family: "Open-Sans", sans-serif;
+}
+
+/* Sets the font to Signika */
+.signika {
+  font-family: "Signika", sans-serif;
+}
+
+/* For large screens: hides the menu by shifting it right */
+.lg-ham-menu {
+  transform: translateX(100%);
+  transition: all 0.5s ease-in-out;
+}
+
+/* Shows the menu when the lg-active class is added */
+.lg-ham-menu.lg-active {
+  transform: translateX(0);
+}
+
+/* Hides hamburger menu by shifting it left */
+.ham-menu {
+  transform: translateX(-100%);
+  transition: all 0.5s ease-in-out;
+}
+
+/* Shows hamburger menu when active class is added */
+.ham-menu.active {
+  transform: translateX(0);
+}
+
+/* Styles each item in the hamburger menu */
+.ham-menu li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 12px 0;
+  color: #808285;
+  transition: all 300ms ease;
+}

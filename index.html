@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <section class="bg-[#50c5bc] overflow-hidden min-h-[100vh] z-10">
+      <header
+        class="primary-header fixed top-0 w-full transition-colors duration-300 ease z-50"
+      >
+        <nav class="flex items-center justify-between lg:px-16 px-12 py-6">
+          <!--___________________________Logo______________________________ -->
+          <div class="h-9">
+            <img
+              class="h-full logo md:block hidden"
+              src="../images/PNG/logo-white.png"
+              alt=""
+            />
+            <img
+              class="h-full logo block md:hidden"
+              src="../images/PNG/logo-black.png"
+              alt=""
+            />
+          </div>
+          <!-- end of Logo -->
+
+          <!--___________________________Navigation & Icons______________________________ -->
+          <div class="flex items-center justify-between space-x-4">
+            <!--___________________________Main Menu______________________________ -->
+            <ul
+              class="nav-items md:flex hidden items-center lg:gap-8 gap-5 font-bold transition-colors duration-300 ease text-white"
+            >
+              <!--___________________________Home Dropdown______________________________ -->
+              <li class="group relative home">
+                <a class="" href="">Home </a>
+                <i class="fas fa-chevron-down ml-1 text-[10px]"></i>
+                <div
+                  class="absolute top-[40px] w-[230px] origin-top scale-y-0 bg-white text-gray-400 opacity-0 transition-all duration-300 ease group-hover:visible group-hover:scale-y-100 group-hover:opacity-100"
+                >
+                  <ul class="dropdown my-8 space-y-4 pl-6 text-sm font-normal">
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Tea Home</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Coffee Home</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Grocerry Home</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Cosmetic Home</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#"
+                        >Restaurant Home</a
+                      >
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Bakery Home</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Shop Home</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Icecream Home</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Slider Home</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#"
+                        >Portfolio Home</a
+                      >
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Blog Home</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Coming Soon</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Landing</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- end of Home Dropdown -->
+
+              <!--___________________________Pages Dropdown______________________________ -->
+              <li class="group relative">
+                <a href="">Pages</a>
+                <i class="fas fa-chevron-down ml-1 text-[10px]"></i>
+                <div
+                  class="absolute top-[40px] w-[230px] origin-top scale-y-0 bg-white text-gray-400 opacity-0 invisible transition-all duration-300 ease group-hover:visible group-hover:scale-y-100 group-hover:opacity-100"
+                >
+                  <ul class="dropdown my-8 space-y-4 pl-6 text-sm font-normal">
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">About Us</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">What We Offer</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Our Process</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Pricing Plan</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Our Team</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Get In Touch</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#"
+                        >404 Error Page</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- end of Pages Dropdown -->
+
+              <!--___________________________Portfolio Dropdown______________________________ -->
+              <li class="group relative">
+                <a href="">Portfolio</a>
+                <i class="fas fa-chevron-down ml-1 text-[10px]"></i>
+                <div
+                  class="absolute top-[40px] w-[230px] origin-top scale-y-0 bg-white text-gray-400 opacity-0 transition-all duration-300 ease group-hover:visible group-hover:scale-y-100 group-hover:opacity-100"
+                >
+                  <ul class="dropdown my-8 space-y-4 px-6 text-sm font-normal">
+                    <!--___________________________Gallery Submenu______________________________ -->
+                    <li
+                      class="group/Gallery relative flex items-center justify-between"
+                    >
+                      <a class="hover:text-[#50c5bc]" href="">Gallery</a>
+                      <i class="fas fa-angle-right text-[10px]"></i>
+                      <div
+                        class="absolute top-[-32px] left-full ml-[14px] w-[220px] bg-white px-10 py-6 opacity-0 transition-all duration-300 ease group-hover/Gallery:visible group-hover/Gallery:opacity-100"
+                      >
+                        <ul class="space-y-6">
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Two Columns</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Three Columns</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Four Columns</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc] leading-6" href=""
+                              >Three Columns Wide No Space</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc] leading-6" href=""
+                              >Four Columns Wide No Space</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc] leading-6" href=""
+                              >Five Columns Wide No Space</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <!-- end of Gallery Submenu -->
+
+                    <!--___________________________Standard Submenu______________________________ -->
+                    <li
+                      class="group/standard relative flex items-center justify-between"
+                    >
+                      <a class="hover:text-[#50c5bc]" href="">Standard</a>
+                      <i class="fas fa-angle-right text-[10px]"></i>
+                      <div
+                        class="absolute top-[-8px] left-full ml-[14px] w-[220px] origin-bottom bg-white px-8 py-6 opacity-0 invisible transition-all duration-400 ease group-hover/standard:visible group-hover/standard:opacity-100"
+                      >
+                        <ul class="space-y-6">
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Two Columns</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Three Columns</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Four Columns</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Three Columns Wide</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Four Columns Wide</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Five Columns Wide</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <!-- end of Standard Submenu -->
+
+                    <!--___________________________Masonry Submenu______________________________ -->
+                    <li class="flex items-center justify-between group/masonry">
+                      <a class="hover:text-[#50c5bc] group/masonry" href=""
+                        >Masonry</a
+                      >
+                      <i
+                        class="fas fa-angle-right text-[10px] group-hover/masonry:text-[#50c5bc]"
+                      ></i>
+                      <div
+                        class="absolute top-[-8px] left-full ml-[14px] w-[220px] origin-bottom bg-white px-8 py-6 opacity-0 invisible transition-all duration-400 ease group-hover/masonry:visible group-hover/masonry:opacity-100"
+                      >
+                        <ul class="space-y-6">
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Masonry-No Space In Grid</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Massonry-No Space In Wide</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Masonry Grid</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Masonry Wide</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <!-- end of Masonry Submenu -->
+
+                    <!--___________________________Single Submenu______________________________ -->
+                    <li class="flex items-center justify-between group/single">
+                      <a class="hover:text-[#50c5bc] group/single" href=""
+                        >Single</a
+                      >
+                      <i
+                        class="fas fa-angle-right text-[10px] group-hover/single:text-[#50c5bc]"
+                      ></i>
+                      <div
+                        class="absolute top-[-8px] left-full ml-[14px] w-[220px] origin-bottom bg-white px-8 py-6 opacity-0 invisible transition-all duration-400 ease group-hover/single:visible group-hover/single:opacity-100"
+                      >
+                        <ul class="space-y-6">
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Masonry Top</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Massonry Side</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Full Width</a
+                            >
+                          </li>
+                          <li>
+                            <a class="hover:text-[#50c5bc]" href=""
+                              >Gallery Top</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <!-- end of Single Submenu -->
+                  </ul>
+                </div>
+              </li>
+              <!-- end of Portfolio Dropdown -->
+
+              <!--___________________________Blog Dropdown______________________________ -->
+              <li class="relative group">
+                <a href="">Blog</a>
+                <i class="fas fa-chevron-down ml-1 text-[10px]"></i>
+                <div
+                  class="absolute top-[40px] w-[230px] origin-top scale-y-0 bg-white text-gray-400 opacity-0 invisible transition-all duration-300 ease group-hover:visible group-hover:scale-y-100 group-hover:opacity-100"
+                >
+                  <ul class="dropdown my-8 space-y-4 pl-6 text-sm font-normal">
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Standar</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Sidebar Right</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Sidebar Left</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Masonry</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#"
+                        >Masonry Full Width</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- end of Blog Dropdown -->
+
+              <!--___________________________Elements Dropdown______________________________ -->
+              <li class="group relative">
+                <a href="">Elements</a>
+                <i class="fas fa-chevron-down ml-1 text-[10px]"></i>
+                <div
+                  class="absolute top-[40px] w-[230px] origin-top scale-y-0 bg-white text-gray-400 opacity-0 invisible transition-all duration-300 ease group-hover:visible group-hover:scale-y-100 group-hover:opacity-100"
+                >
+                  <ul class="dropdown my-8 space-y-4 pl-6 text-sm font-normal">
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Standard</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Sidebar Right</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Sidebar Left</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Masonry</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#"
+                        >Masonry Full Width</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- end of Elements Dropdown -->
+
+              <!--___________________________Shop Dropdown______________________________ -->
+              <li class="relative group">
+                <a href="">Shop</a>
+                <i class="fas fa-chevron-down ml-1 text-[10px]"></i>
+                <div
+                  class="absolute top-[40px] w-[230px] origin-top scale-y-0 bg-white text-gray-400 opacity-0 invisible transition-all duration-300 ease group-hover:visible group-hover:scale-y-100 group-hover:opacity-100"
+                >
+                  <ul class="dropdown my-8 space-y-4 pl-6 text-sm font-normal">
+                    <li><a class="hover:text-[#50c5bc]" href="#">Shop</a></li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Shop Home</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Shop Single</a>
+                    </li>
+                    <li>
+                      <a class="hover:text-[#50c5bc]" href="#">Checkout</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- end of Shop Dropdown -->
+            </ul>
+            <!-- end of Main Menu -->
+
+            <!--___________________________Divider______________________________ -->
+            <div
+              class="devider text-white text-xl transition-color duration-300 ease"
+            >
+              |
+            </div>
+            <!-- end of Divider -->
+
+            <!--___________________________Icons Section______________________________ -->
+            <div class="flex items-center gap-5">
+              <!-- Cart Icon -->
+              <div class="relative lg:block hidden">
+                <img class="cart" src="../images/SVG/cart-white.svg" alt="" />
+                <div
+                  class="item-counter absolute top-[-1px] right-[-1px] flex h-3 w-3 items-center justify-center rounded-full bg-white text-[8px] transition-color duration-300 ease"
+                >
+                  0
+                </div>
+              </div>
+
+              <!-- Search Icon -->
+              <div class="lg:block hidden">
+                <img
+                  class="search"
+                  src="../images/SVG/search-white.svg"
+                  alt=""
+                />
+              </div>
+
+              <!-- Hamburger Icon -->
+              <div class="cursor-pointer lg-hamburger">
+                <img
+                  class="burger"
+                  src="../images/SVG/hamburger-white.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- end of Icons Section -->
+          </div>
+          <!-- end of Navigation & Icons -->
+
+          <!--___________________________Mobile Menu______________________________ -->
+          <div
+            class="lg-ham-menu h-screen w-[25vw] bg-white fixed top-0 right-0 py-10 px-12 space-y-6"
+          >
+            <div
+              class="absolute h-6 top-[20px] right-[30px] cross cursor-pointer"
+            >
+              <img class="h-full" src="../images/SVG/cross.svg" alt="" />
+            </div>
+
+            <div class="h-6">
+              <img class="h-full" src="../images/PNG/logo-black.png" alt="" />
+            </div>
+
+            <p class="text-[#808285] open-sans text-sm leading-6">
+              Superfoods are nutrient-rich foods that health and prevent
+              disease. Packed with vitamins, antioxidants, and fiber. Eating
+              them boosts immunity and energy.
+            </p>
+
+            <p class="text-lg signika font-semibold text-[#3A3A3A] my-10">
+              Follow me on instagram
+            </p>
+            <div class="text-sm text-[#363636]">
+              <i class="fa fa-phone mr-2 my-3"></i>
+              +01145928421
+            </div>
+            <div class="text-sm text-[#363636] my-3">
+              <i class="fa fa-envelope mr-2"></i>
+              superfood@example.com
+            </div>
+
+            <div class="mt-6 space-x-4">
+              <i class="fab fa-x-twitter"></i>
+              <i class="fab fa-youtube"></i>
+              <i class="fab fa-reddit"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-pinterest"></i>
+            </div>
+          </div>
+          <!-- end of Mobile Menu -->
+
+          <div class="md:hidden block cursor-pointer hamburger">
+            <img
+              class="burger-2 md:block hidden"
+              src="../images/SVG/hamburger-white.svg"
+              alt=""
+            />
+            <img
+              class="burger-2 md:hidden block"
+              src="../images/SVG/hamburger-black.svg"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="absolute top-[84px] w-screen bg-white left-0 overflow-hidden ham-menu"
+          >
+            <ul class="py-6 px-12">
+              <li
+                class="border-b border-gray-300 uppercase tracking-wider text-sm font-medium hover:text-[#50c5bc]"
+              >
+                <a href="">Home</a
+                ><i class="fas fa-angle-right text-[10px]"></i>
+              </li>
+              <li
+                class="border-b border-gray-300 uppercase tracking-wider text-sm font-medium hover:text-[#50c5bc]"
+              >
+                <a href="">Pages</a
+                ><i class="fas fa-angle-right text-[10px]"></i>
+              </li>
+              <li
+                class="border-b border-gray-300 uppercase tracking-wider text-sm font-medium hover:text-[#50c5bc]"
+              >
+                <a href="">Porfolio</a
+                ><i class="fas fa-angle-right text-[10px]"></i>
+              </li>
+              <li
+                class="border-b border-gray-300 uppercase tracking-wider text-sm font-medium hover:text-[#50c5bc]"
+              >
+                <a href="">Blog</a
+                ><i class="fas fa-angle-right text-[10px]"></i>
+              </li>
+              <li
+                class="border-b border-gray-300 uppercase tracking-wider text-sm font-medium hover:text-[#50c5bc]"
+              >
+                <a href="">Elements</a
+                ><i class="fas fa-angle-right text-[10px]"></i>
+              </li>
+              <li
+                class="border-b border-gray-300 uppercase tracking-wider text-sm font-medium hover:text-[#50c5bc]"
+              >
+                <a href="">Shop</a
+                ><i class="fas fa-angle-right text-[10px]"></i>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div
+        class="h-[100vh] w-[100vw] bg-fixed relative overflow-hidden flex justify-center items-center lg:top-0 top-[84px] fruit-tea-container"
+      >
+        <!--________________________main content_________________________________ -->
+        <div
+          class="relative grid place-items-center mt-[150px] z-50 fruit-tea-content -space-y-6"
+        >
+          <h1
+            class="text-[190px] leading-[180px] text-white sacramento-regular font-extrabold fade-up child-1 fruit-tea-heading"
+          >
+            Fruit Tea
+          </h1>
+
+          <p
+            class="w-[55%] text-center text-white font-medium text-xl open-sans fade-up child-2 fruit-tea-desc"
+          >
+            Fruit tea is a refreshing drink made by infusing dried fruits,
+            herbs, and flowers. It's naturally sweet.
+          </p>
+
+          <button
+            class="my-10 text-[#50c5bc] bg-white open-sans font-semibold text-sm px-16 py-4 hover:bg-gray-200 uppercase fade-up child-3 fruit-tea-button"
+          >
+            view feature
+          </button>
+        </div>
+        <!-- end of main content -->
+
+        <!--________________________decorative elements_________________________________ -->
+        <!-- Left side decorations -->
+        <div class="stick-parent absolute top-[-10px] left-[-30px] z-10">
+          <img
+            class="stick h-full object-contain"
+            src="images/PNG/stick.png"
+            alt="decorative stick"
+          />
+        </div>
+
+        <div class="black-leave-parent absolute left-[150px] top-[60px]">
+          <img
+            class="black-leave h-full object-contain"
+            src="images/PNG/black-leave.png"
+            alt="black leaf decoration"
+          />
+        </div>
+
+        <!-- Berry cluster left -->
+        <div class="berry-one-parent absolute top-[230px] left-[40px]">
+          <img
+            class="berry-one h-full object-contain"
+            src="images/PNG/berry1.png"
+            alt="berry decoration"
+          />
+        </div>
+
+        <div class="pinecone-parent absolute left-[105px]">
+          <img
+            class="pinecone h-full object-contain"
+            src="images/PNG/pinecone.png"
+            alt="pinecone decoration"
+          />
+        </div>
+
+        <div class="berry-two-parent absolute top-[160px] left-[335px]">
+          <img
+            class="berry-two h-full object-contain"
+            src="images/PNG/berry2.png"
+            alt="secondary berry decoration"
+          />
+        </div>
+
+        <!-- Bottom left foliage -->
+        <div class="big-leave-parent absolute left-[0] bottom-[-90px]">
+          <img
+            class="big-leave h-full object-contain"
+            src="images/PNG/big-leave.png"
+            alt="large leaf decoration"
+          />
+        </div>
+
+        <div
+          class="orange-leave-parent absolute bottom-[-119px] left-[75px] z-10"
+        >
+          <img
+            class="orange-leave h-full object-contain"
+            src="images/PNG/orange-leave.png"
+            alt="orange leaf decoration"
+          />
+        </div>
+
+        <!-- Central berry elements -->
+        <div class="black-berry-1-parent absolute top-[150px] right-[540px]">
+          <img
+            class="black-berry-1 h-full object-contain"
+            src="images/PNG/black-berry-1.png"
+            alt="black berry decoration"
+          />
+        </div>
+
+        <div class="black-berry-2-parent absolute top-[80px] right-[470px]">
+          <img
+            class="black-berry-2 h-full object-contain"
+            src="images/PNG/black-berry-2.png"
+            alt="secondary black berry decoration"
+          />
+        </div>
+
+        <div class="black-berry-3-parent absolute bottom-[110px] left-[560px]">
+          <img
+            class="black-berry-3 h-full object-contain"
+            src="images/PNG/black-berry-3.png"
+            alt="tertiary black berry decoration"
+          />
+        </div>
+
+        <!-- Right side decorations -->
+        <div class="berry-3-parent absolute top-[160px] right-[460px]">
+          <img
+            class="berry-3 h-full object-contain"
+            src="images/PNG/berry3.png"
+            alt="right side berry decoration"
+          />
+        </div>
+
+        <div class="yellow-leave-parent absolute right-[10px] top-[20px] z-10">
+          <img
+            class="yellow-leave h-full object-contain"
+            src="images/PNG/yellow-leave.png"
+            alt="yellow leaf accent"
+          />
+        </div>
+
+        <div class="apple-parent absolute right-[-52px] top-[150px]">
+          <img
+            class="apple h-full object-contain"
+            src="images/PNG/apple.png"
+            alt="apple decoration"
+          />
+        </div>
+
+        <!-- Bottom right elements -->
+        <div class="black-berry-4-parent absolute bottom-[120px] right-[80px]">
+          <img
+            class="black-berry-4 h-full object-contain"
+            src="images/PNG/black-berry-4.png"
+            alt="bottom right berry"
+          />
+        </div>
+
+        <div class="acorn-parent absolute bottom-[-5px] right-[200px]">
+          <img
+            class="acorn h-full object-contain"
+            src="images/PNG/acorn.png"
+            alt="acorn decoration"
+          />
+        </div>
+
+        <div class="red-leave-parent absolute bottom-[-30px] right-[350px]">
+          <img
+            class="red-leave h-full object-contain"
+            src="images/PNG/red-leave.png"
+            alt="red leaf accent"
+          />
+        </div>
+
+        <div class="berry-4-parent absolute bottom-[140px] right-[570px]">
+          <img
+            class="berry-4 h-full object-contain"
+            src="images/PNG/berry4.png"
+            alt="final berry decoration"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--________________________________MAIN CONTAINER________________________________-->
+
+    <section 
+      class="z-10 flex items-center justify-center lg:py-[80px] xl:py-[100px] lg:px-[50px] xl:px-[100px] bg-[#f7f5f2]"
+    >
+      <!--___________________________GRID CONTAINER____________________________-->
+      <div
+        class="px-6 sm:px-10 lg:px-16 lg:gap-y-0 gap-y-2 md:gap-y-8 lg:pt-0 pt-10 grid place-items-start justify-items-center
+         lg:grid-rows-1 lg:grid-cols-3 md:grid-rows-2 md:grid-cols-2 grid-rows-3 grid-cols-1"
+      >
+        <!--___________________________LEFT CONTENT COLUMN________________________-->
+        <div
+          class="space-y-12 sm:space-y-16 md:space-y-20 lg:mb-0 mb-10 lg:row-start-1 lg:col-start-1 md:row-start-1 md:col-start-2 row-start-1 col-start-1 mr-0"
+        >
+          <!--________________________FEATURE CARD 1__________________________-->
+          <div class="fade-left bg-white rounded-2xl px-6 py-8 sm:p-0 sm:bg-transparent sm:rounded-none child-1">
+            <h6
+              class="open-sans text-xl font-bold text-[#3A3A3A] hover:text-[#50c5bc] transition-colors duration-300 ease lg:text-end md:text-start"
+            >
+              Stunning Full Screen Slider
+            </h6>
+            <p
+              class="mt-2 text-gray-600 sm:text-gray-400 lg:text-end md:text-start"
+            >
+              The Visual Composer drag-and-drop page builder is packed with all
+              Elated Themes. Setting up your website and creating pages.
+            </p>
+          </div>
+          <!--______________________END FEATURE CARD 1________________________-->
+
+          <!--________________________FEATURE CARD 2__________________________-->
+          <div class="fade-left child-2 bg-white rounded-2xl px-6 py-8 sm:p-0 sm:bg-transparent sm:rounded-none">
+            <h6
+              class="open-sans text-xl font-bold text-[#3A3A3A] hover:text-[#50c5bc] transition-colors duration-300 ease lg:text-end md:text-start"
+            >
+              Smooth Parallax Effect
+            </h6>
+            <p
+              class="mt-2 text-gray-600 sm:text-gray-400 lg:text-end md:text-start"
+            >
+              The Elated Slider comes with video and image support, as well as
+              full screen and parallax functionality. Display your content.
+            </p>
+          </div>
+          <!--______________________END FEATURE CARD 2________________________-->
+
+          <!--________________________FEATURE CARD 3__________________________-->
+          <div class="fade-left child-3 bg-white rounded-2xl px-6 py-8 sm:p-0 sm:bg-transparent sm:rounded-none">
+            <h6
+              class="open-sans text-xl font-bold text-[#3A3A3A] hover:text-[#50c5bc] transition-colors duration-300 ease lg:text-end md:text-start"
+            >
+              WooCommerce Compatible
+            </h6>
+            <p
+              class="mt-2 text-gray-600 sm:text-gray-400 lg:text-end md:text-start"
+            >
+              Elated Themes provide a large collection of elements and
+              shortcodes. Create any layout combination you can imagine and.
+            </p>
+          </div>
+          <!--______________________END FEATURE CARD 3________________________-->
+        </div>
+        <!--_______________________END LEFT CONTENT COLUMN_____________________-->
+
+        <!--___________________________CENTRAL IMAGE___________________________-->
+        <div
+          class="m-0 lg:row-start-1 lg:col-start-2 md:row-start-1 md:col-start-1 row-start-2 col-start-1 lg:row-span-1 row-span-1 md:row-span-2  md:h-[450px] md:w-[350px] h-[350px] w-[270px]"
+        >
+          <img
+            class="h-full w-full"
+            src="../images/PNG/tea-pot.png"
+            alt="Decorative teapot image"
+          />
+        </div>
+        <!--_________________________END CENTRAL IMAGE_________________________-->
+
+        <!--___________________________RIGHT CONTENT COLUMN_____________________-->
+        <div
+          class="z-20 m-0 space-y-12 sm:space-y-16 md:space-y-20 lg:row-start-1 lg:col-start-3 md:row-start-2 md:col-start-2 row-start-3 col-start-1 mr-0 -mt-[280px] sm:mt-0"
+        >
+          <!--________________________FEATURE CARD 1__________________________-->
+          <div class="fade-right child-1 bg-white rounded-2xl px-6 py-8 sm:p-0 sm:bg-transparent sm:rounded-none">
+            <h6
+              class="open-sans text-xl font-bold text-[#3A3A3A] hover:text-[#50c5bc] transition-colors duration-300 ease text-start"
+            >
+              Simple Demo Import
+            </h6>
+            <p class="text-gray-600 sm:text-gray-400 text-start">
+              The Elated Slider comes with video and image support, as well as
+              full screen and parallax functionality that comes in style.
+            </p>
+          </div>
+          <!--______________________END FEATURE CARD 1________________________-->
+
+          <!--________________________FEATURE CARD 2__________________________-->
+          <div class="fade-right child-2 bg-white rounded-2xl px-6 py-8 sm:p-0 sm:bg-transparent sm:rounded-none">
+            <h6
+              class="open-sans text-xl font-bold text-[#3A3A3A] hover:text-[#50c5bc] transition-colors duration-300 ease text-start"
+            >
+              Infographic Elements
+            </h6>
+            <p class="text-gray-600 sm:text-gray-400 text-start">
+              The Visual Composer drag-and-drop page builder is packed with all
+              Elated Themes. Setting up your website has never been.
+            </p>
+          </div>
+          <!--______________________END FEATURE CARD 2________________________-->
+
+          <!--________________________FEATURE CARD 3__________________________-->
+          <div class="fade-right child-3 bg-white rounded-2xl px-6 py-8 sm:p-0 sm:bg-transparent sm:rounded-none">
+            <h6
+              class="open-sans text-xl font-bold text-[#3A3A3A] hover:text-[#50c5bc] transition-colors duration-300 ease text-start"
+            >
+              Retina Ready
+            </h6>
+            <p class="text-gray-600 sm:text-gray-400 text-start">
+              The Elated Slider comes with video and image support, as well as
+              full screen and parallax functionality display your main.
+            </p>
+          </div>
+          <!--______________________END FEATURE CARD 3________________________-->
+        </div>
+        <!--_______________________END RIGHT CONTENT COLUMN____________________-->
+      </div>
+      <!--_________________________END GRID CONTAINER_________________________-->
+    </section>
+    <!--_____________________________END MAIN CONTAINER________________________-->
+
+    <!-- _________________________________TEAs SECTION__________________________ -->
+    <section class="py-24 px-10 z-10 bg-white">
+      <!-- Section Heading -->
+      <div class="flex flex-col items-center justify-center text-center">
+        <!-- Title -->
+        <h5
+          class="text-[30px] sm:text-[40px] font-bold text-[#3a3a3a] open-sans mb-4"
+        >
+          Easy to Customize
+        </h5>
+
+        <!-- Description -->
+        <p class="w-[100%] sm:w-[60%] text-lg text-[#808285]">
+          The Visual Composer drag-and-drop page builder is packed with all
+          Elated Themes. Setting up your website and creating pages full of
+          stunning content.
+        </p>
+      </div>
+
+      <!-- ______________________ CARDS CONTAINER ______________________ -->
+      <div
+        class="my-16 flex flex-wrap justify-center items-center gap-8 card-container"
+      >
+        <!-- card-1 -->
+      </div>
+    </section>
+
+    <!-- ______________________________BG-FLOWER__________________________ -->
+
+    <section class=" z-10">
+      <div
+        class="bg-flower flex items-center gap-10 justify-around px-14 sm:px-32 py-24 flex-wrap"
+      >
+        <div class="grid place-items-center">
+          <div><img src="images/PNG/flower-tea-1.png" alt="" /></div>
+          <p class="mt-6 font-bold text-4xl text-white">9895</p>
+          <p class="mt-2 font-semibold text-xl text-white">Icon Collections</p>
+        </div>
+
+        <div class="grid place-items-center">
+          <div><img src="images/PNG/flower-tea-2.png" alt="" /></div>
+          <p class="mt-6 font-bold text-4xl text-white">8197</p>
+          <p class="mt-2 font-semibold text-xl text-white">Masonry Layouts</p>
+        </div>
+        <div class="grid place-items-center">
+          <div><img src="images/PNG/flower-tea-3.png" alt="" /></div>
+          <p class="mt-6 font-bold text-4xl text-white">1143</p>
+          <p class="mt-2 font-semibold text-xl text-white">Only The Best</p>
+        </div>
+        <div class="grid place-items-center">
+          <div><img src="images/PNG/flower-tea-4.png" alt="" /></div>
+          <p class="mt-6 font-bold text-4xl text-white">2177</p>
+          <p class="mt-2 font-semibold text-xl text-white">Elated Design</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ______________________________BLOG-LAYOUT________________________- -->
+    <section class="z-10 ">
+      <div class="bg-leave py-24">
+        <div
+          class="flex flex-col items-center justify-center text-center space-y-6"
+        >
+          <!-- Heading -->
+          <h5
+            class="text-[30px] md:text-[40px] font-bold text-[#3a3a3a] open-sans"
+          >
+            Beautiful Blog Layouts
+          </h5>
+
+          <!-- Paragraph -->
+          <p class="w-[75%] sm:w-[60%] text-md sm:text-lg text-[#808285] mb-12">
+            The Elated Slider comes with video and image support, as well as
+            full screen and parallax functionality. Display your essential
+            content in style. Add sections with the stunning parallax effect to
+            your pages. Make browsing your website an exciting and intuitive
+            experience.
+          </p>
+
+          <!-- Call-to-action button -->
+          <button
+            class="px-12 py-4 bg-[#50c5bc] hover:bg-[#3bb1a6] text-white text-sm font-semibold uppercase cursor-pointer"
+          >
+            view feature
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--____________________________POWERFULL-SETTING_____________________________  -->
+    <section class="z-10 bg-white">
+      <div class="flex items-center justify-center flex-col px-6 md:px-16 py-16 lg:flex-row space-y-16">
+        <div class="space-y-16 signika sm:text-start text-center">
+          <div class="flex items-center jsutify-center gap-4">
+            <div class=" mb-7 sm:block hidden">
+              <i class="fa-solid fa-heart" style="color: #50c5bc; font-size: 30px;"></i>
+
+            </div>
+            <div>
+              <h6
+                class="text-[#3a3a3a] text-2xl font-bold hover:text-[#50c5bc] mb-2"
+              >
+                Powerful Elated Settings
+              </h6>
+              <p class="text-[#808285] text-md w-[100%] md:w-[70%]">
+                Take control over your website. All elements can be easily
+                styled and modified in Elated settings easily and intuitively.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-center jsutify-center gap-4">
+            <div class="mb-10 sm:block hidden">
+              <i
+                class="fa-solid fa-gift"
+                style="color: #50c5bc; font-size: 30px"
+              ></i>
+            </div>
+            <div>
+              <h6
+                class="text-[#3a3a3a] text-2xl font-bold hover:text-[#50c5bc] mb-2"
+              >
+                Drag-and-Drop Builder
+              </h6>
+              <p class="text-[#808285] text-md w-[100%] md:w-[70%]">
+                Add sections with the stunning parallax effect to your pages.
+                Make browsing your website an exciting experience.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-center jsutify-center gap-4 ">
+            <div class="mb-7 sm:block hidden">
+              <i
+                class="fa-solid fa-star"
+                style="color: #50c5bc; font-size: 30px"
+              ></i>
+            </div>
+            <div>
+              <h6
+                class="text-[#3a3a3a] text-2xl font-bold hover:text-[#50c5bc] mb-2"
+              >
+                Welcome to Elated
+              </h6>
+              <p class="text-[#808285] text-md w-[100%] md:w-[70%]">
+                The Visual Composer drag-and-drop page builder is packed with
+                all Elated Themes to set up your stunning website.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class=" relative lg:top-[-150px]">
+          <img src="images/PNG/double-packet.png"  alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="z-10">
+      <div class="bg-[#50c5bc]">
+        <div class="flex items-center justify-center gap-6 flex-wrap py-16 px-8">
+
+          <div class="hidden xl:block"><img src="images/PNG/shop-1.png" alt=""></div>
+          <div class="hidden lg:block"><img src="images/PNG/shop-2.png" alt=""></div>
+          <div class="hidden md:block"><img src="images/PNG/shop-3.png" alt=""></div>
+          <div class=""><img src="images/PNG/shop-4.png" alt=""></div>
+          <div class=""><img src="images/PNG/shop-5.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tea-bg grid place-items-center z-10">
+      <div class="slide min-w-full flex justify-center items-center px-10  py-40 md:py-52">
+        <div class="flex flex-col justify-center items-center text-center space-y-6">
+          <h6 class="text-[#3a3a3a] font-bold text-3xl signika">Simple demo import</h6>
+          <p class="text-[#a7a9ac] signika w-[100%] sm:w-[70%] md:w-[50%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus corrupti iste deserunt quisquam nesciunt alias doloremque officiis repellat rerum sint earum vel animi modi magnam, accusantium quis possimus eligendi? Odio perferendis fugit unde facere aut?</p>
+          <p class="text-[#3a3a3a] font-bold text-xl open-sans signika">rickki basso, photograph</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="z-10">
+      <div class="flex justify-center items-center flex-wrap">
+        
+        <!-- Image 1 -->
+        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 relative group overflow-hidden hidden xl:block">
+          <img src="images/JPEG/gallery-1.jpg" class="w-full h-[300px] object-cover block" alt="">
+          <div class="absolute inset-0 bg-[#50c5bc] opacity-0 group-hover:opacity-60 transition duration-300"></div>
+        </div>
+    
+        <!-- Image 2 -->
+        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 relative group overflow-hidden hidden lg:block">
+          <img src="images/JPEG/gallery-2.jpg" class="w-full h-[300px] object-cover block" alt="">
+          <div class="absolute inset-0 bg-[#50c5bc] opacity-0 group-hover:opacity-60 transition duration-300"></div>
+        </div>
+    
+        <!-- Image 3 -->
+        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 relative group overflow-hidden hidden md:block">
+          <img src="images/JPEG/gallery-3.jpg" class="w-full h-[300px] object-cover block" alt="">
+          <div class="absolute inset-0 bg-[#50c5bc] opacity-0 group-hover:opacity-60 transition duration-300"></div>
+        </div>
+    
+        <!-- Image 4 -->
+        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 relative group overflow-hidden hidden sm:block">
+          <img src="images/JPEG/gallery-4.jpg" class="w-full h-[300px] object-cover block" alt="">
+          <div class="absolute inset-0 bg-[#50c5bc] opacity-0 group-hover:opacity-60 transition duration-300"></div>
+        </div>
+    
+        <!-- Image 5 -->
+        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 relative group overflow-hidden hidden sm:block">
+          <img src="images/JPEG/gallery-5.jpg" class="w-full h-[300px] object-cover block" alt="">
+          <div class="absolute inset-0 bg-[#50c5bc] opacity-0 group-hover:opacity-60 transition duration-300"></div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="sticky bottom-0 -z-50">
+      <div class="flex flex-col lg:flex-row gap-8 bg-[#363636] py-16 px-6 md:px-12 lg:px-16">
+        
+        <!-- Left Column -->
+        <div class="text-[#a4a4a4] space-y-6 w-full lg:w-1/3">
+          <div class="h-[50px]">
+            <img src="images/PNG/logo-white.png" class="h-full" alt="">
+          </div>
+          <p>
+            At vero eos et accusam et justo duo dolo res et ea rebum. Stet clita kasd guber gren. Aenean sollici tudin lorem quis biben dum auci elit clita.
+          </p>
+          <div class="flex gap-4 items-center">
+            <i class="fas fa-home text-white"></i>
+            <p>01+ 9098765642</p>
+          </div>
+          <div class="flex gap-4 items-center">
+            <i class="fas fa-map-marker-alt text-white"></i>
+            <p>Eighth Avenue 487, New York</p>
+          </div>
+        </div>
+    
+        <!-- Middle Column (Form) -->
+        <div class="w-full lg:w-1/3 space-y-4">
+          <input type="text" placeholder="Name" class="w-full placeholder:text-[#a4a4a4] pl-4 py-3 border border-[#a4a4a4] text-sm text-[#a4a4a4] focus:border-[#b8b8b8] outline-none">
+          <input type="text" placeholder="Email" class="w-full placeholder:text-[#a4a4a4] pl-4 py-3 border border-[#a4a4a4] text-sm text-[#a4a4a4] focus:border-[#b8b8b8] outline-none">
+          <textarea placeholder="Comments" class="w-full placeholder:text-[#b8b8b8] pl-4 py-3 border border-[#b8b8b8] text-sm text-[#a4a4a4] focus:border-[#b8b8b8] outline-none h-[100px] resize-none"></textarea>
+          <button class="bg-[#50c5bc] w-full lg:w-auto px-8 py-3 text-white font-semibold hover:bg-white hover:text-black transition-all duration-500 uppercase">Submit</button>
+        </div>
+    
+        <!-- Right Column -->
+        <div class="w-full lg:w-1/3 space-y-4">
+          <h6 class="text-white text-xl font-bold">Twitter feed</h6>
+          <p class="text-md text-[#a4a4a4]">Couldn't connect with Twitter</p>
+          <div class="flex flex-wrap gap-4 text-[#a4a4a4] text-lg">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-reddit"></i>
+            <i class="fab fa-facebook-f"></i>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <footer class="bg-[#3a3a3a] text-center py-8">
+      <p class="text-[#a4a4a4]">@2017 Qode Interactive, All Rights Reserved</p>
+
+    </footer>
+
+    <script src="scripts/data.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
+

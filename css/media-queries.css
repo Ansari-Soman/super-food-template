@@ -1,0 +1,159 @@
+/* _______________________________________NORMAL MEDIA-QUERY_________________________________ */
+@media screen and (max-width: 840px) {
+    .devider {
+      display: none;
+    }
+    .lg-hamburger {
+      display: none;
+    }
+  
+    .nav-items {
+      gap: 12px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .primary-header {
+      background-color: white;
+    }
+  }
+
+
+
+/* _______________________________________FRUIT-RESPONSIVE MEDIA-QUERY_________________________________ */
+/* responsive.css */
+
+
+/* up to 1496px */
+@media screen and (max-width: 1496px) {
+    .stick-parent            { top: -16px;   left: -40px; }
+    .black-leave-parent      { top: 40px;    left: 100px; }
+    .berry-two-parent        { top: 140px;   left: 300px; }
+    .berry-one-parent        { top: 200px;   left: 20px;  }
+    .pinecone-parent         { left: 80px;                }
+    .big-leave-parent        { bottom: -130px; left: -40px; }
+    .orange-leave-parent     { bottom: -130px; left: 50px;  }
+    .black-berry-3-parent    { bottom: 90px;  left: 520px; }
+    .black-berry-1-parent    { top: 110px;   right: 540px; }
+    .black-berry-2-parent    { top: 40px;    right: 470px; }
+    .berry-3-parent          { top: 120px;   right: 460px; }
+    .yellow-leave-parent     { top: 20px;    right: 0;     }
+    .apple-parent            { top: 150px;   right: -80px; }
+    .black-berry-4-parent    { bottom: 100px; right: 60px; }
+    .red-leave-parent        { bottom: -50px;  right: 290px; }
+    .berry-4-parent          { bottom: 110px;  right: 530px; }
+    .acorn-parent            { bottom: -25px;  right: 170px; }
+  }
+  
+  /* up to 1400px */
+  @media screen and (max-width: 1400px) {
+    .fruit-tea-heading       { font-size: 170px; }
+    .stick-parent            { left: -70px;     }
+    .black-leave-parent      { top: 15px;  left: 80px; }
+    .pinecone-parent         { left: 80px;  }
+    .big-leave-parent        { bottom: -150px; left: -70px; }
+    .orange-leave-parent     { bottom: -140px; left: 0;     }
+    .black-berry-3-parent    { bottom: 70px;  left: 480px; }
+    .black-berry-1-parent    { right: 500px; }
+    .black-berry-2-parent    { right: 430px; }
+    .berry-3-parent          { right: 420px; }
+    .red-leave-parent        { right: 270px; }
+    .berry-4-parent          { right: 490px; }
+  }
+  
+  /* up to 1305px */
+  @media screen and (max-width: 1305px) {
+    .stick-parent            { height: 200px; }
+    .black-leave-parent      { height: 250px; top: -10px; left: 130px; }
+    .pinecone-parent         { height: 200px; }
+    .big-leave-parent        { bottom: -110px; left: -140px; height: 350px; }
+    .orange-leave-parent     { bottom: -100px; left: -30px;  height: 200px; }
+    .black-berry-3-parent    { bottom: 40px;  left: 300px; }
+    .black-berry-1-parent    { right: 240px; }
+    .black-berry-2-parent    { right: 200px; }
+    .berry-3-parent          { right: 160px; }
+    .yellow-leave-parent     { top: -8px;    right: -10px; height: 200px; }
+    .apple-parent            { right: -60px; height: 300px; }
+    .acorn-parent            { right: 50px; }
+    .fruit-tea-heading       { font-size: 140px; }
+    .fruit-tea-desc          { font-size: 18px;  }
+    .fruit-tea-content       { margin-top: 100px; }
+  }
+  
+  /* up to 1024px */
+  @media screen and (max-width: 1024px) {
+    .fruit-tea-content       { margin-top: 80px; }
+    .stick-parent            { top: -15px; left: -70px; height: 170px; }
+    .black-leave-parent      { top: -20px; left: 130px; height: 220px; }
+    .berry-one-parent        { top: 150px; left: 10px; }
+    .pinecone-parent         { top: 170px; left: 50px;  height: 180px; }
+    .berry-two-parent        { top: 90px;  left: 280px; }
+    .black-berry-1-parent    { top: 90px;  height: 70px; right: 220px; }
+    .black-berry-2-parent    { top: 40px;  height: 70px; right: 180px; }
+    .berry-3-parent          { top: 100px; right: 160px; }
+    .yellow-leave-parent     { top: -8px;  right: -20px; height: 180px; }
+    .apple-parent            { top: 160px; right: -50px; height: 220px; }
+    .black-berry-4-parent    { bottom: 150px; height: 70px; right: 0; }
+    .acorn-parent            { bottom: -25px; height: 150px; right: 20px; }
+    .red-leave-parent        { bottom: -10px; height: 200px; right: 100px; }
+    .berry-4-parent          { bottom: 140px; height: 60px; right: 220px; }
+    .black-berry-3-parent    { bottom: 40px;  height: 70px; left: 270px; }
+    .big-leave-parent        { bottom: -80px; left: -110px; height: 320px; }
+    .orange-leave-parent     { bottom: -80px; left: -10px;  height: 180px; }
+    .fruit-tea-heading       { font-size: 120px; }
+    .fruit-tea-desc          { font-size: 15px;  }
+    .fruit-tea-button        { padding: 16px 50px; }
+  }
+  
+  /* up to 600px */
+  @media screen and (max-width: 600px) {
+    .fruit-tea-content       { margin-top: 0; }
+    .fruit-tea-heading       { font-size: 100px; }
+    .fruit-tea-desc          { font-size: 14px;  }
+    .black-leave-parent      { top: 0;    left: 130px; height: 220px; }
+    .pinecone-parent         { top: 200px; left: 20px;  height: 180px; }
+    .berry-one-parent        { top: 160px; left: 100px; height: 60px;  }
+    .berry-two-parent        { top: 30px;  left: 240px; height: 60px;  }
+    .black-berry-1-parent    { top: 190px; right: 150px; }
+    .black-berry-2-parent    { top: 140px; right: 110px; }
+    .berry-3-parent          { top: 200px; right: 90px;  height: 60px; }
+    .apple-parent            { top: 300px; right: -150px; height: 240px; }
+    .big-leave-parent        { bottom: -130px; left: -180px; height: 370px; }
+    .orange-leave-parent     { bottom: -110px; left: -60px;  height: 200px; }
+    .black-berry-3-parent    { bottom: 200px; left: 220px; height: 70px; }
+    .berry-4-parent          { bottom: 260px; right: 220px; height: 60px; }
+    .red-leave-parent        { bottom: 100px; right: 20px;  height: 200px; }
+    .acorn-parent            { bottom: 25px;  right: 20px;  height: 150px; }
+  }
+  
+  /* up to 440px */
+  @media screen and (max-width: 440px) {
+    .fruit-tea-container     { height: 90vh; }
+    .fruit-tea-content       { margin-bottom: 100px; }
+    .fruit-tea-heading       { font-size: 60px; }
+    .fruit-tea-desc          { position: relative; top: -15px; }
+    .fruit-tea-button        { font-size: 12px; padding: 12px 26px; }
+    .stick-parent            { top: 0; left: -20px; height: 100px; }
+    .berry-one-parent        { top: 100px; left: 0;   height: 40px; }
+    .black-leave-parent      { top: 70px;  left: 40px;  height: 130px; }
+    .berry-two-parent        { top: 100px; left: 120px; height: 35px; }
+    .yellow-leave-parent     { top: 0;     right: -10px; height: 100px; }
+    .apple-parent            { top: 70px;  right: -30px; height: 140px; }
+    .black-berry-1-parent    { top: 40px;  right: 120px; height: 40px; }
+    .black-berry-2-parent    { top: 5px;   right: 90px;  height: 40px; }
+    .berry-3-parent          { top: 45px;  right: 90px;  height: 30px; }
+    .pinecone-parent         { top: 150px; left: 10px;  height: 120px; }
+    .big-leave-parent        { bottom: -70px; left: -140px; height: 270px; }
+    .orange-leave-parent     { bottom: -60px;  left: -40px;  height: 150px; }
+    .black-berry-3-parent    { bottom: 160px; left: 120px; height: 40px; }
+    .black-berry-4-parent    { bottom: 100px; right: 5px;   height: 40px; }
+    .acorn-parent            { bottom: 30px;  right: 10px;  height: 85px;  }
+    .red-leave-parent        { bottom: 80px;  right: 10px;  height: 140px; }
+    .berry-4-parent          { bottom: 190px; right: 120px; height: 30px;  }
+  }
+  
+  /* up to 360px */
+  @media screen and (max-width: 360px) {
+    .pinecone-parent { top: 150px; left: -10px; height: 100px; }
+  }
+  
