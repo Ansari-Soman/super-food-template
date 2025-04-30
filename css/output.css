@@ -33,8 +33,6 @@
     --font-weight-extrabold: 800;
     --tracking-wider: 0.05em;
     --radius-2xl: 1rem;
-    --ease-out: cubic-bezier(0, 0, 0.2, 1);
-    --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -538,6 +536,9 @@
   .scale-y-0 {
     --tw-scale-y: 0%;
     scale: var(--tw-scale-x) var(--tw-scale-y);
+  }
+  .transform {
+    transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
   .cursor-pointer {
     cursor: pointer;
@@ -1384,13 +1385,13 @@
   font-family: "Open-Sans", sans-serif;
 }
 .bg-flower {
-  background: url('images/JPEG/bg-flower.jpg') center / cover no-repeat fixed;
+  background: url('../images/JPEG/bg-flower.jpg') center / cover no-repeat fixed;
 }
 .bg-leave {
-  background: url('images/JPEG/bg-leave.jpg') center / cover no-repeat;
+  background: url('../images/JPEG/bg-leave.jpg') center / cover no-repeat;
 }
 .tea-bg {
-  background: url('images/JPEG/tea-bg.jpg') center / cover no-repeat;
+  background: url('../images/JPEG/tea-bg.jpg') center / cover no-repeat;
 }
 @property --tw-scale-x {
   syntax: "*";
@@ -1406,6 +1407,26 @@
   syntax: "*";
   inherits: false;
   initial-value: 1;
+}
+@property --tw-rotate-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-y {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-z {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-y {
+  syntax: "*";
+  inherits: false;
 }
 @property --tw-space-y-reverse {
   syntax: "*";
@@ -1444,6 +1465,11 @@
       --tw-scale-x: 1;
       --tw-scale-y: 1;
       --tw-scale-z: 1;
+      --tw-rotate-x: initial;
+      --tw-rotate-y: initial;
+      --tw-rotate-z: initial;
+      --tw-skew-x: initial;
+      --tw-skew-y: initial;
       --tw-space-y-reverse: 0;
       --tw-space-x-reverse: 0;
       --tw-border-style: solid;

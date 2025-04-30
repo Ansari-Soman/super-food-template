@@ -4,12 +4,12 @@
 }
 
 .bg-flower {
-    background: url('images/JPEG/bg-flower.jpg') center / cover no-repeat fixed;
+    background: url('../images/JPEG/bg-flower.jpg') center / cover no-repeat fixed;
 }
 
 .bg-leave {
-    background: url('images/JPEG/bg-leave.jpg') center / cover no-repeat;
+    background: url('../images/JPEG/bg-leave.jpg') center / cover no-repeat;
 }
 .tea-bg {
-  background: url('images/JPEG/tea-bg.jpg') center / cover no-repeat;
+  background: url('../images/JPEG/tea-bg.jpg') center / cover no-repeat;
 }
