@@ -51,14 +51,15 @@ Here is a preview of the Super Food Template:
 ## 📁 Folder Structure
 super-food-template/
 ├── .vscode/              # VSCode settings (optional)
-├── css/                  # Tailwind or compiled CSS
-├── images/               # Assets like fruit images and screenshots
+├── css/                  # Tailwind CSS or compiled CSS files
+├── images/               # Contains images like fruit images and screenshots
 ├── node_modules/         # Installed dependencies
 ├── scripts/              # JavaScript files
 ├── index.html            # Main HTML file
 ├── package.json          # NPM configuration
 ├── package-lock.json     # NPM lock file
 └── README.md             # Project documentation
+
 
 ## 🙌 Author
 
